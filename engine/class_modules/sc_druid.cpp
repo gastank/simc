@@ -8940,6 +8940,8 @@ void druid_t::apl_balance()
 
   precombat->add_action( "moonkin_form" );
   precombat->add_action( "wrath" );
+  precombat->add_action( "wrath" );
+  precombat->add_action( "wrath" );
   precombat->add_action( "starsurge,if=spell_targets.starfall<4" );
   precombat->add_action( "variable,name=convoke_desync,value=floor((interpolated_fight_remains-20)%120)>floor((interpolated_fight_remains-25-(10*talent.incarnation.enabled)-(4*conduit.precise_alignment.enabled))%180)" );
 
